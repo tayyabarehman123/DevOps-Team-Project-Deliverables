@@ -9,4 +9,7 @@
  5. Izza Maryam - 49360
 
 This is the Initial Project created by Team Leader (Tayyaba Rehman).
-Added paragraph tag with italic.
+
+Added paragraph tag with italic by Izza Maryam.
+
+Changed heading(Hello world) to uppercase by Shafia Murad.
