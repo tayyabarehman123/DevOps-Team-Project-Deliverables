@@ -15,3 +15,5 @@ Added paragraph tag with italic by Izza Maryam.
 Changed heading(Hello world) to uppercase by Shafia Murad.
 
 Removing HTML opening tag by Eiman Ahmed.
+
+Adding html opening tag and p tag by Amna Asad.
