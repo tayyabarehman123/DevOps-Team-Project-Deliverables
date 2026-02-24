@@ -8,6 +8,10 @@
  4. Amna Asad - 49298
  5. Izza Maryam - 49360
 
+## Project Description
+This is the initial DevOps project created by the Team Leader, Tayyaba Rehman.
+
+## Contributions
 This is the Initial Project created by Team Leader (Tayyaba Rehman).
 
 Added paragraph tag with italic by Izza Maryam.
