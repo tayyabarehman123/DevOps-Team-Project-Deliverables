@@ -51,4 +51,6 @@ The pipeline includes:
 - v1.0: Initial setup
 - v1.1: Added CI/CD pipeline
 
+Image push by Amna
+
 
