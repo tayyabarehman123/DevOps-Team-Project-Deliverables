@@ -21,4 +21,33 @@ Changed heading(Hello world) to uppercase by Shafia Murad.
 Removing HTML opening tag by Eiman Ahmed.
 
 Adding html opening tag and p tag by Amna Asad.
+
 Doing Jenkins
+
+## Description
+This project uses a CI/CD pipeline with GitHub Actions to automatically build, test, and deploy a Dockerized application.
+
+## CI/CD Pipeline
+The pipeline includes:
+- Build Docker image
+- Run tests (optional)
+- Push image to Docker Hub
+- Deploy container to AWS EC2
+
+## How to Run Locally
+1. Clone repo:
+   git clone https://github.com/your-username/your-repo.git
+
+2. Build Docker image:
+   docker build -t myapp .
+
+3. Run container:
+   docker run -p 5000:5000 myapp
+
+## Deployment
+- Automatically deployed via GitHub Actions
+- Runs on AWS EC2 using Docker
+
+## Changelog
+- v1.0: Initial setup
+- v1.1: Added CI/CD pipeline
