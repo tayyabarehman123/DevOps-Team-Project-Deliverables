@@ -25,7 +25,7 @@ Adding html opening tag and p tag by Amna Asad.
 Doing Jenkins
 
 ## Description
-This project uses a CI/CD pipeline with GitHub Actions to automatically build, test, and deploy a Dockerized application.
+The project uses a CI/CD pipeline with GitHub Actions to automatically build, test, and deploy a Dockerized application.
 
 ## CI/CD Pipeline
 The pipeline includes:
@@ -51,3 +51,5 @@ The pipeline includes:
 ## Changelog
 - v1.0: Initial setup
 - v1.1: Added CI/CD pipeline
+
+
