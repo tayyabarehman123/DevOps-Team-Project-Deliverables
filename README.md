@@ -36,7 +36,7 @@ The pipeline includes:
 
 ## How to Run Locally
 1. Clone repo:
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/tayyabarehman123/DevOps-Team-Project-Deliverables.git
 
 2. Build Docker image:
    docker build -t myapp .
