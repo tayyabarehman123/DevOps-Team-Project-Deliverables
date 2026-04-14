@@ -32,7 +32,6 @@ The pipeline includes:
 - Build Docker image
 - Run tests (optional)
 - Push image to Docker Hub
-- Deploy container to AWS EC2
 
 ## How to Run Locally
 1. Clone repo:
@@ -46,7 +45,7 @@ The pipeline includes:
 
 ## Deployment
 - Automatically deployed via GitHub Actions
-- Runs on AWS EC2 using Docker
+- Runs on Docker Hub using Docker
 
 ## Changelog
 - v1.0: Initial setup
