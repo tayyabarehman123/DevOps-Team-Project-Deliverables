@@ -1,0 +1,24 @@
+name: User1 Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Build
+      run: docker build -t myapp .
+
+    - name: Login
+      run: echo "${{ secrets.USER1_PASSWORD }}" | docker login -u "${{ secrets.USER1_USERNAME }}" --password-stdin
+
+    - name: Tag
+      run: docker tag myapp ${{ secrets.USER1_USERNAME }}/myapp:latest
+
+    - name: Push
+      run: docker push ${{ secrets.USER1_USERNAME }}/myapp:latest
