@@ -60,3 +60,25 @@ Image Push by Izza
 Image Push by Shafia
 
 
+## Kubernetes Deployment (Deliverable 5)
+
+### Prerequisites
+- Minikube installed
+- kubectl installed
+- Docker Desktop running
+
+### Steps to Deploy
+
+1. Start Minikube:
+   minikube start
+
+2. Clone the repo:
+   git clone https://github.com/tayyabarehman123/DevOps-Team-Project-Deliverables.git
+
+3. Apply Kubernetes configs:
+   kubectl apply -f k8s/deployment.yml
+   kubectl apply -f k8s/service.yml
+
+4. Open the app:
+   minikube service my-app-service
+
